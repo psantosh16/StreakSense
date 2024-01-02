@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:stacked/stacked.dart';
-import 'package:habit_tracker/ui/common/ui_helpers.dart';
-
 import 'startup_viewmodel.dart';
 
 class StartupView extends StackedView<StartupViewModel> {
@@ -20,14 +18,13 @@ class StartupView extends StackedView<StartupViewModel> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              'STACKED',
+              'Streak Sense',
               style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900),
             ),
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text('Loading ...', style: TextStyle(fontSize: 16)),
-                horizontalSpaceSmall,
                 SizedBox(
                   width: 16,
                   height: 16,

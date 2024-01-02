@@ -1,3 +1,9 @@
-# habit_tracker
+# Streak Sense
 
-A new Flutter project.
+Features:- 
+
+1. Project Tracker
+2. Gym log tracker
+3. Code streak tracker
+
+

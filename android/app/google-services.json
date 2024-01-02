@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678445457305",
+    "project_id": "my-streaksense",
+    "storage_bucket": "my-streaksense.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678445457305:android:6262a7a637dc38673f7d08",
+        "android_client_info": {
+          "package_name": "com.tracker.streaksense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5seaI5br2CHbSVY9hnBdoLiC7ThwM9Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

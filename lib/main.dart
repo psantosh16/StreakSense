@@ -1,15 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:habit_tracker/app/app.bottomsheets.dart';
-import 'package:habit_tracker/app/app.dialogs.dart';
-import 'package:habit_tracker/app/app.locator.dart';
-import 'package:habit_tracker/app/app.router.dart';
+import 'package:streak_sense/app/app.locator.dart';
+import 'package:streak_sense/app/app.router.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:streak_sense/firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   await setupLocator();
-  setupDialogUi();
-  setupBottomSheetUi();
   runApp(const MainApp());
 }
 
