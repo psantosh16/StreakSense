@@ -1,4 +1,4 @@
-package com.tracker.streak_sense
+package com.tracker.streaksense
 
 import io.flutter.embedding.android.FlutterActivity
 
